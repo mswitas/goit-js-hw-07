@@ -5,8 +5,7 @@ let galleryItemsString = "";
 
 galleryItems.forEach((galleryItem) => {
     galleryItemsString += `
-        <li>
-            <div class="gallery__item">
+        <li class="gallery__item">
                 <a class="gallery__link" href="${galleryItem.original}">
                     <img
                         class="gallery__image"
@@ -15,7 +14,6 @@ galleryItems.forEach((galleryItem) => {
                         alt="${galleryItem.description}"
                     />
                 </a>
-            </div>
         </li>    
     `;
 
